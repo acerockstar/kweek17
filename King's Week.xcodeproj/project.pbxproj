@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E560F41EACEB83006AE248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E560F31EACEB83006AE248 /* AppDelegate.swift */; };
+		17E560F61EACEB83006AE248 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E560F51EACEB83006AE248 /* FirstViewController.swift */; };
+		17E560F81EACEB83006AE248 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E560F71EACEB83006AE248 /* SecondViewController.swift */; };
+		17E560FB1EACEB83006AE248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E560F91EACEB83006AE248 /* Main.storyboard */; };
+		17E560FD1EACEB83006AE248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E560FC1EACEB83006AE248 /* Assets.xcassets */; };
+		17E561001EACEB83006AE248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E560FE1EACEB83006AE248 /* LaunchScreen.storyboard */; };
+		17E5610B1EACEB83006AE248 /* King_s_WeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E5610A1EACEB83006AE248 /* King_s_WeekTests.swift */; };
+		17E561161EACEB83006AE248 /* King_s_WeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E561151EACEB83006AE248 /* King_s_WeekUITests.swift */; };
+		17E561241EACEBEC006AE248 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E561231EACEBEC006AE248 /* ThirdViewController.swift */; };
+		17E561261EACF23D006AE248 /* chairs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17E561251EACF23D006AE248 /* chairs.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E561071EACEB83006AE248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E560E81EACEB83006AE248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E560EF1EACEB83006AE248;
+			remoteInfo = "King's Week";
+		};
+		17E561121EACEB83006AE248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E560E81EACEB83006AE248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E560EF1EACEB83006AE248;
+			remoteInfo = "King's Week";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E560F01EACEB83006AE248 /* King's Week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "King's Week.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E560F31EACEB83006AE248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E560F51EACEB83006AE248 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		17E560F71EACEB83006AE248 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		17E560FA1EACEB83006AE248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17E560FC1EACEB83006AE248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E560FF1EACEB83006AE248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17E561011EACEB83006AE248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E561061EACEB83006AE248 /* King's WeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "King's WeekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E5610A1EACEB83006AE248 /* King_s_WeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King_s_WeekTests.swift; sourceTree = "<group>"; };
+		17E5610C1EACEB83006AE248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E561111EACEB83006AE248 /* King's WeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "King's WeekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E561151EACEB83006AE248 /* King_s_WeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King_s_WeekUITests.swift; sourceTree = "<group>"; };
+		17E561171EACEB83006AE248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E561231EACEBEC006AE248 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		17E561251EACF23D006AE248 /* chairs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chairs.jpg; path = Assets.xcassets/chairs.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E560ED1EACEB83006AE248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E561031EACEB83006AE248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E5610E1EACEB83006AE248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E560E71EACEB83006AE248 = {
+			isa = PBXGroup;
+			children = (
+				17E560F21EACEB83006AE248 /* King's Week */,
+				17E561091EACEB83006AE248 /* King's WeekTests */,
+				17E561141EACEB83006AE248 /* King's WeekUITests */,
+				17E560F11EACEB83006AE248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E560F11EACEB83006AE248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E560F01EACEB83006AE248 /* King's Week.app */,
+				17E561061EACEB83006AE248 /* King's WeekTests.xctest */,
+				17E561111EACEB83006AE248 /* King's WeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E560F21EACEB83006AE248 /* King's Week */ = {
+			isa = PBXGroup;
+			children = (
+				17E560F31EACEB83006AE248 /* AppDelegate.swift */,
+				17E560F51EACEB83006AE248 /* FirstViewController.swift */,
+				17E560F71EACEB83006AE248 /* SecondViewController.swift */,
+				17E560F91EACEB83006AE248 /* Main.storyboard */,
+				17E560FC1EACEB83006AE248 /* Assets.xcassets */,
+				17E561251EACF23D006AE248 /* chairs.jpg */,
+				17E560FE1EACEB83006AE248 /* LaunchScreen.storyboard */,
+				17E561011EACEB83006AE248 /* Info.plist */,
+				17E561231EACEBEC006AE248 /* ThirdViewController.swift */,
+			);
+			path = "King's Week";
+			sourceTree = "<group>";
+		};
+		17E561091EACEB83006AE248 /* King's WeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E5610A1EACEB83006AE248 /* King_s_WeekTests.swift */,
+				17E5610C1EACEB83006AE248 /* Info.plist */,
+			);
+			path = "King's WeekTests";
+			sourceTree = "<group>";
+		};
+		17E561141EACEB83006AE248 /* King's WeekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17E561151EACEB83006AE248 /* King_s_WeekUITests.swift */,
+				17E561171EACEB83006AE248 /* Info.plist */,
+			);
+			path = "King's WeekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E560EF1EACEB83006AE248 /* King's Week */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E5611A1EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's Week" */;
+			buildPhases = (
+				17E560EC1EACEB83006AE248 /* Sources */,
+				17E560ED1EACEB83006AE248 /* Frameworks */,
+				17E560EE1EACEB83006AE248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "King's Week";
+			productName = "King's Week";
+			productReference = 17E560F01EACEB83006AE248 /* King's Week.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E561051EACEB83006AE248 /* King's WeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E5611D1EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's WeekTests" */;
+			buildPhases = (
+				17E561021EACEB83006AE248 /* Sources */,
+				17E561031EACEB83006AE248 /* Frameworks */,
+				17E561041EACEB83006AE248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E561081EACEB83006AE248 /* PBXTargetDependency */,
+			);
+			name = "King's WeekTests";
+			productName = "King's WeekTests";
+			productReference = 17E561061EACEB83006AE248 /* King's WeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17E561101EACEB83006AE248 /* King's WeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E561201EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's WeekUITests" */;
+			buildPhases = (
+				17E5610D1EACEB83006AE248 /* Sources */,
+				17E5610E1EACEB83006AE248 /* Frameworks */,
+				17E5610F1EACEB83006AE248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E561131EACEB83006AE248 /* PBXTargetDependency */,
+			);
+			name = "King's WeekUITests";
+			productName = "King's WeekUITests";
+			productReference = 17E561111EACEB83006AE248 /* King's WeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E560E81EACEB83006AE248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arlix Technologies lYD";
+				TargetAttributes = {
+					17E560EF1EACEB83006AE248 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
+					};
+					17E561051EACEB83006AE248 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E560EF1EACEB83006AE248;
+					};
+					17E561101EACEB83006AE248 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E560EF1EACEB83006AE248;
+					};
+				};
+			};
+			buildConfigurationList = 17E560EB1EACEB83006AE248 /* Build configuration list for PBXProject "King's Week" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E560E71EACEB83006AE248;
+			productRefGroup = 17E560F11EACEB83006AE248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E560EF1EACEB83006AE248 /* King's Week */,
+				17E561051EACEB83006AE248 /* King's WeekTests */,
+				17E561101EACEB83006AE248 /* King's WeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E560EE1EACEB83006AE248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E561001EACEB83006AE248 /* LaunchScreen.storyboard in Resources */,
+				17E560FD1EACEB83006AE248 /* Assets.xcassets in Resources */,
+				17E560FB1EACEB83006AE248 /* Main.storyboard in Resources */,
+				17E561261EACF23D006AE248 /* chairs.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E561041EACEB83006AE248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E5610F1EACEB83006AE248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E560EC1EACEB83006AE248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E560F81EACEB83006AE248 /* SecondViewController.swift in Sources */,
+				17E560F41EACEB83006AE248 /* AppDelegate.swift in Sources */,
+				17E561241EACEBEC006AE248 /* ThirdViewController.swift in Sources */,
+				17E560F61EACEB83006AE248 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E561021EACEB83006AE248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E5610B1EACEB83006AE248 /* King_s_WeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E5610D1EACEB83006AE248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E561161EACEB83006AE248 /* King_s_WeekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E561081EACEB83006AE248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E560EF1EACEB83006AE248 /* King's Week */;
+			targetProxy = 17E561071EACEB83006AE248 /* PBXContainerItemProxy */;
+		};
+		17E561131EACEB83006AE248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E560EF1EACEB83006AE248 /* King's Week */;
+			targetProxy = 17E561121EACEB83006AE248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E560F91EACEB83006AE248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E560FA1EACEB83006AE248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17E560FE1EACEB83006AE248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E560FF1EACEB83006AE248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E561181EACEB83006AE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E561191EACEB83006AE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E5611B1EACEB83006AE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's Week/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-Week";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17E5611C1EACEB83006AE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's Week/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-Week";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17E5611E1EACEB83006AE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's WeekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-WeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/King's Week.app/King's Week";
+			};
+			name = Debug;
+		};
+		17E5611F1EACEB83006AE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's WeekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-WeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/King's Week.app/King's Week";
+			};
+			name = Release;
+		};
+		17E561211EACEB83006AE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's WeekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-WeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "King's Week";
+			};
+			name = Debug;
+		};
+		17E561221EACEB83006AE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A96T689RCU;
+				INFOPLIST_FILE = "King's WeekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.arlix.King-s-WeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "King's Week";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E560EB1EACEB83006AE248 /* Build configuration list for PBXProject "King's Week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E561181EACEB83006AE248 /* Debug */,
+				17E561191EACEB83006AE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E5611A1EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's Week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E5611B1EACEB83006AE248 /* Debug */,
+				17E5611C1EACEB83006AE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17E5611D1EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's WeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E5611E1EACEB83006AE248 /* Debug */,
+				17E5611F1EACEB83006AE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17E561201EACEB83006AE248 /* Build configuration list for PBXNativeTarget "King's WeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E561211EACEB83006AE248 /* Debug */,
+				17E561221EACEB83006AE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E560E81EACEB83006AE248 /* Project object */;
+}
