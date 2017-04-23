@@ -10,9 +10,19 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //webkit code
+        //first we will create a NSURL with the url that we want to load in the webview
+        let url = NSURL (string: "https://www.google.com");
+        let request = NSURLRequest(url: url! as URL);
+        webView.loadRequest(request as URLRequest);
     }
 
     override func didReceiveMemoryWarning() {
